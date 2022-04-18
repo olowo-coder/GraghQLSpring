@@ -1,9 +1,6 @@
 package com.example.graphqlspringv1.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -11,6 +8,7 @@ import javax.persistence.Id;
 @Entity
 @Setter
 @Getter
+@ToString
 @AllArgsConstructor
 @NoArgsConstructor
 public class Employee {
